@@ -1,0 +1,8 @@
+PASS dashboard metrics
+PASS filter and inspect reason
+PASS filtered CSV export
+PASS pagination & search
+PASS simulator open, credit and manual review
+PASS review date projection
+PASS mobile layout
+PASS no JavaScript runtime errors

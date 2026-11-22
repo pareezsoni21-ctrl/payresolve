@@ -1,0 +1,57 @@
+type,elapsed_days,mode,expected_deadline,expected_late_days,expected_inr,expected_status,actual_deadline,actual_late_days,actual_inr,actual_status,result
+p2p,0,open,2026-11-16,0,0,Within deadline,2026-11-16,0,0,Within deadline,PASS
+p2p,0,immediate,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,0,reversal,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,1,open,2026-11-16,0,0,Due today,2026-11-16,0,0,Due today,PASS
+p2p,1,immediate,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,1,reversal,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,2,open,2026-11-16,1,100,Overdue,2026-11-16,1,100,Overdue,PASS
+p2p,2,immediate,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,2,reversal,2026-11-16,1,100,Resolved late,2026-11-16,1,100,Resolved late,PASS
+p2p,3,open,2026-11-16,2,200,Overdue,2026-11-16,2,200,Overdue,PASS
+p2p,3,immediate,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,3,reversal,2026-11-16,2,200,Resolved late,2026-11-16,2,200,Resolved late,PASS
+p2p,4,open,2026-11-16,3,300,Overdue,2026-11-16,3,300,Overdue,PASS
+p2p,4,immediate,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,4,reversal,2026-11-16,3,300,Resolved late,2026-11-16,3,300,Resolved late,PASS
+p2p,5,open,2026-11-16,4,400,Overdue,2026-11-16,4,400,Overdue,PASS
+p2p,5,immediate,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,5,reversal,2026-11-16,4,400,Resolved late,2026-11-16,4,400,Resolved late,PASS
+p2p,6,open,2026-11-16,5,500,Overdue,2026-11-16,5,500,Overdue,PASS
+p2p,6,immediate,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,6,reversal,2026-11-16,5,500,Resolved late,2026-11-16,5,500,Resolved late,PASS
+p2p,7,open,2026-11-16,6,600,Overdue,2026-11-16,6,600,Overdue,PASS
+p2p,7,immediate,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,7,reversal,2026-11-16,6,600,Resolved late,2026-11-16,6,600,Resolved late,PASS
+p2m,0,open,2026-11-20,0,0,Within deadline,2026-11-20,0,0,Within deadline,PASS
+p2m,0,immediate,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,0,reversal,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,1,open,2026-11-20,0,0,Within deadline,2026-11-20,0,0,Within deadline,PASS
+p2m,1,immediate,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,1,reversal,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,2,open,2026-11-20,0,0,Within deadline,2026-11-20,0,0,Within deadline,PASS
+p2m,2,immediate,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,2,reversal,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,3,open,2026-11-20,0,0,Within deadline,2026-11-20,0,0,Within deadline,PASS
+p2m,3,immediate,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,3,reversal,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,4,open,2026-11-20,0,0,Within deadline,2026-11-20,0,0,Within deadline,PASS
+p2m,4,immediate,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,4,reversal,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,5,open,2026-11-20,0,0,Due today,2026-11-20,0,0,Due today,PASS
+p2m,5,immediate,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,5,reversal,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,6,open,2026-11-20,1,100,Overdue,2026-11-20,1,100,Overdue,PASS
+p2m,6,immediate,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,6,reversal,2026-11-20,1,100,Resolved late,2026-11-20,1,100,Resolved late,PASS
+p2m,7,open,2026-11-20,2,200,Overdue,2026-11-20,2,200,Overdue,PASS
+p2m,7,immediate,2026-11-20,0,0,Resolved on time,2026-11-20,0,0,Resolved on time,PASS
+p2m,7,reversal,2026-11-20,2,200,Resolved late,2026-11-20,2,200,Resolved late,PASS
+p2p,0,credit,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,1,credit,2026-11-16,0,0,Resolved on time,2026-11-16,0,0,Resolved on time,PASS
+p2p,2,credit,2026-11-16,1,100,Resolved late,2026-11-16,1,100,Resolved late,PASS
+p2p,3,credit,2026-11-16,2,200,Resolved late,2026-11-16,2,200,Resolved late,PASS
+p2p,4,credit,2026-11-16,3,300,Resolved late,2026-11-16,3,300,Resolved late,PASS
+p2p,5,credit,2026-11-16,4,400,Resolved late,2026-11-16,4,400,Resolved late,PASS
+p2p,6,credit,2026-11-16,5,500,Resolved late,2026-11-16,5,500,Resolved late,PASS
+p2p,7,credit,2026-11-16,6,600,Resolved late,2026-11-16,6,600,Resolved late,PASS

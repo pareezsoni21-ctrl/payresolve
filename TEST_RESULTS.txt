@@ -1,0 +1,28 @@
+PASS non-domestic
+PASS unknown domestic
+PASS no debit
+PASS unknown debit
+PASS non-completion false
+PASS non-completion unknown
+PASS customer attributable
+PASS customer attribution unknown
+PASS unsupported category
+PASS unrecognised field value
+PASS pre-effective date
+PASS merchant credit
+PASS invalid transaction date
+PASS future transaction
+PASS resolution before transaction
+PASS future resolution
+PASS missing resolution
+PASS open with a resolution date
+PASS invalid outcome
+PASS invalid resolution date
+PASS month boundary
+PASS year boundary
+PASS leap boundary
+PASS fixed cohort and unique IDs
+PASS snapshot totals reconcile
+PASS later review does not alter resolved cases or source dates
+56/56 policy scenarios passed; 26/26 additional checks passed; 82/82 total.
+Fixed synthetic cohort: {"total":120,"eligible":90,"manual":30,"overdue":50,"due":5,"openExposure":21800,"closedExposure":2000}
